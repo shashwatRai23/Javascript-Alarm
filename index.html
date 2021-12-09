@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>My Website</title> -->
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="alarm">
+        <div id="hourOperator" class="operate">
+            <button class="setHour" id="addHour" >+</button>
+            <button class="setHour" id="subtractHour" ">-</button>
+        </div>
+        <div id="selectTime">
+            <div id="visibleTime" style="background-color: #023047;">
+                <div id="time">
+                    <span id="hour">12</span>:<span id="minute">00</span><span id="meridian"></span>
+                </div>
+            </div>
+            <div id="meridianContainer">
+                <button id="AM" class="setMeridian">AM</button>
+                <button id="PM" class="setMeridian">PM</button>
+            </div>
+            <button id="setAlarm">
+                Set Alarm
+            </button>
+        </div>
+        <div id="minuteOperator" class="operate">
+            <button class="setMinute" id="addMinute" >+</button>
+            <button class="setMinute" id="subtractMinute" >-</button>
+        </div>
+    </div>
+
+    <!-- <script src="tut15.js"></script> -->
+    <script src="tut52(Exercise-5).js"></script>
+</body>
+
+</html>

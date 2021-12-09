@@ -1,0 +1,99 @@
+
+.alarm
+{
+    margin: auto auto;
+    margin-top: 10em;
+    width: 30%;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.operate{
+    /* border: 2px solid black; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#selectTime{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+#visibleTime{
+    /* border: 2px solid black; */
+    height: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+#meridianContainer{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 25%;
+    flex-direction: row;
+}
+#setAlarm{
+    height: 25%;
+    color: white;
+    font-size: 1.2em;
+    background-color: #9b2226;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#setAlarm:hover
+{
+    background-color: #6a040f;
+    cursor: pointer;
+}
+.setMeridian{
+    width: 50%;
+    font-size: 1.2em;
+    background-color: #fca311;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.setMeridian:hover
+{
+    background-color: #fb8500;
+    cursor: pointer;
+}
+.setHour{
+    height: 50%;
+    font-size: 1.7em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #219ebc;
+}
+.setHour:hover{
+    background-color: #457b9d;
+    cursor: pointer;
+}
+.setMinute{
+    height: 50%;
+    font-size: 1.7em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #219ebc;
+}
+.setMinute:hover{
+    background-color: #457b9d;
+    cursor: pointer;
+}
+#time{
+    margin-top: 0.25em;
+    font-size: 3.5em;
+    color:#fca311;
+}
+#meridian{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    color: #576c86;
+    text-decoration: underline;
+}
